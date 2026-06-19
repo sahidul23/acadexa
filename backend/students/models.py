@@ -24,12 +24,7 @@ class Section(models.Model):
 
 
 
-class Subject(models.Model):
-    code = models.CharField(max_length=20, unique=True)
-    name = models.CharField(max_length=100)
 
-    def __str__(self):
-        return self.name
 
 
 from django.conf import settings
