@@ -18,3 +18,17 @@ class StudentProfileSerializer(serializers.ModelSerializer):
             "guardian_name",
             "guardian_phone",
         ]
+
+
+class StudentRegisterSerializer(serializers.Serializer):
+    username = serializers.CharField(max_length=150)
+    password = serializers.CharField(write_only=True)
+
+    admission_number = serializers.CharField(max_length=30)
+    roll_number = serializers.CharField(max_length=20)
+
+    academic_class = serializers.IntegerField()
+    section = serializers.IntegerField()
+
+    guardian_name = serializers.CharField(max_length=100)
+    guardian_phone = serializers.CharField(max_length=15)
