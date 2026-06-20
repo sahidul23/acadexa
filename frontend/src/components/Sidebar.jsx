@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Sidebar() {
   return (
     <aside className="w-64 bg-slate-900 text-white min-h-screen p-6">
@@ -12,9 +14,11 @@ function Sidebar() {
           🏠 Dashboard
         </li>
 
-        <li className="hover:text-blue-400 cursor-pointer">
-          👨‍🎓 Students
-        </li>
+        <Link to="/students">
+  <li className="hover:text-blue-400 cursor-pointer">
+    👨‍🎓 Students
+  </li>
+</Link>
 
         <li className="hover:text-blue-400 cursor-pointer">
           👨‍🏫 Teachers
