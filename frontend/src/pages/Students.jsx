@@ -17,9 +17,16 @@ function Students() {
 
       setStudents(response.data);
     } catch (error) {
-      console.error(error);
-      alert("Failed to fetch students");
-    }
+  console.log(error);
+
+  if (error.response) {
+    console.log("Status:", error.response.status);
+    console.log("Data:", error.response.data);
+    alert(JSON.stringify(error.response.data));
+  } else {
+    alert(error.message);
+  }
+}
   };
 
   return (
@@ -50,8 +57,8 @@ function Students() {
                 <tr key={student.id} className="border-b">
                   <td className="py-4">{student.admission_number}</td>
                   <td>{student.roll_number}</td>
-                  <td>{student.academic_class}</td>
-                  <td>{student.section}</td>
+                  <td>{student.class_name}</td>
+                  <td>{student.section_name}</td>
                   <td>{student.guardian_name}</td>
                 </tr>
               ))
