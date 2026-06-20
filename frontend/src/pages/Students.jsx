@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import DashboardLayout from "../layouts/DashboardLayout";
 import api from "../api/api";
+import StudentModal from "../components/students/StudentModal";
+import StudentForm from "../components/students/StudentForm";
 
 function Students() {
   const [students, setStudents] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     fetchStudents();
@@ -34,9 +37,14 @@ function Students() {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold">Student Management</h1>
 
-        <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
-          + Add Student
-        </button>
+        <button
+    onClick={() => setIsModalOpen(true)}
+    className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700"
+>
+    + Add Student
+</button> 
+
+
       </div>
 
       <div className="bg-white rounded-xl shadow p-6 overflow-x-auto">
@@ -72,6 +80,14 @@ function Students() {
           </tbody>
         </table>
       </div>
+
+      <StudentModal
+    isOpen={isModalOpen}
+    onClose={() => setIsModalOpen(false)}
+>
+    <StudentForm />
+</StudentModal>
+
     </DashboardLayout>
   );
 }
