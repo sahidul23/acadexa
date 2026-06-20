@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'results',
     'notes',
     'dashboard',
+    "authentication",
 ]
 
 
@@ -130,3 +131,10 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 AUTH_USER_MODEL = "accounts.User"
+
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+}
