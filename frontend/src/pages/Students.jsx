@@ -15,36 +15,37 @@ function Students() {
   const fetchStudents = async () => {
     try {
       const response = await api.get("students/");
-
-      console.log(response.data);
-
       setStudents(response.data);
     } catch (error) {
-  console.log(error);
+      console.error(error);
 
-  if (error.response) {
-    console.log("Status:", error.response.status);
-    console.log("Data:", error.response.data);
-    alert(JSON.stringify(error.response.data));
-  } else {
-    alert(error.message);
-  }
-}
+      if (error.response) {
+        alert(JSON.stringify(error.response.data));
+      } else {
+        alert(error.message);
+      }
+    }
+  };
+
+  // Called after a student is successfully added
+  const handleStudentAdded = () => {
+    setIsModalOpen(false);
+    fetchStudents();
   };
 
   return (
     <DashboardLayout>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold">Student Management</h1>
+        <h1 className="text-3xl font-bold">
+          Student Management
+        </h1>
 
         <button
-    onClick={() => setIsModalOpen(true)}
-    className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700"
->
-    + Add Student
-</button> 
-
-
+          onClick={() => setIsModalOpen(true)}
+          className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700"
+        >
+          + Add Student
+        </button>
       </div>
 
       <div className="bg-white rounded-xl shadow p-6 overflow-x-auto">
@@ -63,16 +64,25 @@ function Students() {
             {students.length > 0 ? (
               students.map((student) => (
                 <tr key={student.id} className="border-b">
-                  <td className="py-4">{student.admission_number}</td>
+                  <td className="py-4">
+                    {student.admission_number}
+                  </td>
+
                   <td>{student.roll_number}</td>
+
                   <td>{student.class_name}</td>
+
                   <td>{student.section_name}</td>
+
                   <td>{student.guardian_name}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan="5" className="text-center py-6">
+                <td
+                  colSpan="5"
+                  className="text-center py-6"
+                >
                   No students found
                 </td>
               </tr>
@@ -82,12 +92,11 @@ function Students() {
       </div>
 
       <StudentModal
-    isOpen={isModalOpen}
-    onClose={() => setIsModalOpen(false)}
->
-    <StudentForm />
-</StudentModal>
-
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      >
+        <StudentForm onSuccess={handleStudentAdded} />
+      </StudentModal>
     </DashboardLayout>
   );
 }

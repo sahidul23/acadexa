@@ -1,8 +1,9 @@
 
 import { useState } from "react";
 import { createStudent } from "../../services/studentServices";
+import { toast } from "react-toastify";
 
-function StudentForm() {
+function StudentForm({ onSuccess }) {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
@@ -29,7 +30,7 @@ function StudentForm() {
 
     console.log(response);
 
-    alert("Student Added Successfully!");
+    toast.success("🎉 Student Added Successfully!");
 
     setFormData({
       username: "",
@@ -42,13 +43,17 @@ function StudentForm() {
       guardian_phone: "",
     });
 
+    if (onSuccess) {
+      onSuccess();
+    }
+
   } catch (error) {
     console.error(error);
 
     if (error.response) {
-      alert(JSON.stringify(error.response.data));
+     toast.error(error.response.data.error || "Failed to register student");
     } else {
-      alert("Something went wrong");
+      toast.error("Something went wrong!");
     }
   }
 };
