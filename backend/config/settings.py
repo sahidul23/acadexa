@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-g#7(or9q*9ie(7-zy2rloni@vpb5es+tyo*0vr2e2e1wqdprwn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ "acadexa-production-8580.up.railway.app",
+    "127.0.0.1",
+    "localhost",]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://acadexa-production-8580.up.railway.app",
+]
 
 
 # Application definition
