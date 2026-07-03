@@ -48,8 +48,11 @@ function Students() {
         </button>
       </div>
 
-      <div className="bg-white rounded-xl shadow p-6 overflow-x-auto">
-        <table className="w-full">
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+
+  <div className="overflow-x-auto">
+
+    <table className="min-w-[900px] w-full">
           <thead>
             <tr className="border-b text-left">
               <th className="py-3">Admission No</th>
@@ -89,6 +92,7 @@ function Students() {
             )}
           </tbody>
         </table>
+      </div>
       </div>
 
       <StudentModal

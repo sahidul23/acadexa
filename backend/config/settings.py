@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'notes',
     'dashboard',
     "authentication",
+    "daily_practice",
+    "motivation",
 ]
 
 
@@ -157,3 +159,7 @@ SIMPLE_JWT = {
 
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
+
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"

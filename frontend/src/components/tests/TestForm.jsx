@@ -1,7 +1,10 @@
-import { useState } from "react";
-import { createTest } from "../../services/testService";
+import { useEffect, useState } from "react";
+import {
+  createTest,
+  updateTest,
+} from "../../services/testService";
 
-function TestForm({ onSuccess, onClose }) {
+function TestForm({ onSuccess, onClose, test }) {
   const [formData, setFormData] = useState({
     title: "",
     subject: "Physics",
@@ -10,6 +13,19 @@ function TestForm({ onSuccess, onClose }) {
     total_marks: 180,
     is_published: false,
   });
+
+  useEffect(() => {
+  if (test) {
+    setFormData({
+      title: test.title,
+      subject: test.subject,
+      chapter: test.chapter,
+      duration: test.duration,
+      total_marks: test.total_marks,
+      is_published: test.is_published,
+    });
+  }
+}, [test]);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -24,9 +40,13 @@ function TestForm({ onSuccess, onClose }) {
     e.preventDefault();
 
     try {
-      await createTest(formData);
-
-      alert("Test created successfully!");
+      if (test) {
+  await updateTest(test.id, formData);
+  alert("Test updated successfully!");
+} else {
+  await createTest(formData);
+  alert("Test created successfully!");
+}
 
       if (onSuccess) onSuccess();
       if (onClose) onClose();
@@ -43,8 +63,8 @@ function TestForm({ onSuccess, onClose }) {
       className="space-y-4"
     >
       <h2 className="text-2xl font-bold mb-4">
-        Create Mock Test
-      </h2>
+  {test ? "Edit Mock Test" : "Create Mock Test"}
+</h2>
 
       <input
         type="text"
@@ -111,7 +131,7 @@ function TestForm({ onSuccess, onClose }) {
           type="submit"
           className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg"
         >
-          Save Test
+          {test ? "Update Test" : "Save Test"}
         </button>
 
         <button

@@ -102,6 +102,12 @@ class StudentAttempt(models.Model):
 
     total_questions = models.PositiveIntegerField(default=0)
 
+    correct_answers = models.PositiveIntegerField(default=0)
+
+    wrong_answers = models.PositiveIntegerField(default=0)
+
+    unanswered = models.PositiveIntegerField(default=0)
+
     percentage = models.FloatField(default=0)
 
     started_at = models.DateTimeField(auto_now_add=True)
@@ -139,3 +145,5 @@ class StudentAnswer(models.Model):
 
     def __str__(self):
         return f"{self.attempt.student.username} - Q{self.question.id}"
+    
+
