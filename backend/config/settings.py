@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://acadexa-production-8580.up.railway.app",
+     "https://acadexa-virid.vercel.app",
 ]
 
 
@@ -79,6 +80,7 @@ ROOT_URLCONF = 'config.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://acadexa-virid.vercel.app",
 ]
 
 TEMPLATES = [
