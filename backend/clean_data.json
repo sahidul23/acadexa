@@ -1,0 +1,1092 @@
+[
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$nPMf7ySS7ccKzpuJxCfjLX$dtj+wGGlJFlmbMp+bRBBpF7C1br8Q/G+gtJPuS4AT0E=",
+    "last_login": "2026-06-19T18:03:55Z",
+    "is_superuser": false,
+    "username": "sahidul",
+    "first_name": "",
+    "last_name": "",
+    "email": "sahidafridi7099@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-19T17:24:51Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$52XCr3wzWuyctVaFzmIV2m$URZBItO/T+/WLdlYa1ssfiebZhFzXV2H6yIc2wNphEo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin12",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-19T18:08:07Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MyTRFzlsrCA4N4LJvlI9PN$BffsMWBLbatotZ2iRCQCntvUi7b9WHJDF4AM5/3wxXA=",
+    "last_login": "2026-06-20T12:28:56.082Z",
+    "is_superuser": true,
+    "username": "sayada",
+    "first_name": "",
+    "last_name": "",
+    "email": "sayadrahattanzim@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-19T18:12:27.950Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AbTVFexZyZnyNXzCa3GZt6$iFw6qrDapVyP3Xnx0PES/xGBNWa5zzoMv5Lht8yvhIw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "teacher",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-19T18:12:58Z",
+    "role": "TEACHER",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$iYMXZu5QyCRp7gPK5vDWmJ$p20fh7Oxu0+2mJAOULEURv1viu3omkcr96vbJOVtDPQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T07:39:38Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$tLVn27bBwXL2gDDOb9Mqmi$QF2J8TD2EVf15pA5TLhVR7OnOOL6aWRtmdxWM9LKYRA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student5",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T12:09:09.515Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$203P13adfc4sTajhDISDne$Is/L1L4PSTz6t6WnjMWwe5NcVd+C4UvUa2zwKSqn6vg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sahidul23",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T12:26:00.158Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$JJZJhvgKnI2KBccDWwCAeW$22cSH4PZxvGl18ZPfFvXuIgINl9x/lK1dyjq1m5iRv0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sarfaraz",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T12:37:55.478Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$sPOtDxSNZkeBirLvYPZxUv$UfQXq8vcPe1Z1Nxi7KM+r6TziZAMKr/+misR6TZ/Fs0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sadik",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T12:46:47.980Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$mXPXvMcs2m3YcHOPXKo62u$DK4zIqOWu+Oe14J1CI4/clIPA9Ayjyd5Epx0lixZ2zk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T13:11:44.696Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fmAWLG8BwbLcoEdAaFgm1U$ST4RimW1Awmvk3NbUk3jSSms6Dyoj/gsG3JSPabHlHw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "afridi",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-20T14:13:14.743Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Je1jYL225QxH4wVJDnRyQk$FRZo/3xZ7690WhvyW4LCd6uci3cQ3SBNBnnOYjNC6lE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sahidul237",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-24T05:07:34Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$PhMVh6m5suIfG3HNjTlgoH$Ur8B0zR9F2q3UwOtcPcnGlDeGYkwPMnx2LyHzviHamQ=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "adminsahidul",
+    "first_name": "",
+    "last_name": "",
+    "email": "mdsahidulislam8723@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-24T05:14:16Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$qvEDIjatK88glR0mfEZABL$Cfhd3x2KdqY79v0qOgkMfXjb+ayeBKSZ9GreRY0DpPA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sumaya",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-24T05:35:07.491Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$g9fTpDFsDyFlJnrGTY4iq7$TxmKkgOFaSDBYac15C0TkF8PoHwK16smAl0fH0ZX04Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sajid",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-02T02:22:24.647Z",
+    "role": "STUDENT",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$9Xyjp5Pk5UCJxT8Bgi4XfU$hpMuMplGhPHKFF7jHBKPQkXGeHUghjxMegdhpU2voQk=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin1sahidul",
+    "first_name": "",
+    "last_name": "",
+    "email": "sahidafridi7099@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-03T16:54:55.986Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ix3qikBB86WXIrPnUsuM81$dzkksJ9t5x6FrQEavRcGPX66Lle7mRYcxSMzIpeCsas=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin2sahidul",
+    "first_name": "",
+    "last_name": "",
+    "email": "sahidafridi7099@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-03T17:08:40.268Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$V1vzXEd9VJzcX2hCNWAoHl$E22S+PzZsH/W3O7Ga+97qPPHLc78nysME4VQ1pMarmg=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin4sahidul",
+    "first_name": "",
+    "last_name": "",
+    "email": "sayadarahattanzim@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-04T06:14:59.629Z",
+    "role": "ADMIN",
+    "phone": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "sayada"
+    ],
+    "admission_number": "A002",
+    "roll_number": "102",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "nurul islam",
+    "guardian_phone": "7896496000"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "sahidul"
+    ],
+    "admission_number": "A001",
+    "roll_number": "101",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "Sayed Ali",
+    "guardian_phone": "7896496099"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "student5"
+    ],
+    "admission_number": "A005",
+    "roll_number": "105",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "Rahman",
+    "guardian_phone": "9999999999"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "sahidul23"
+    ],
+    "admission_number": "A006",
+    "roll_number": "107",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "tanbir",
+    "guardian_phone": "9837492739"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "sarfaraz"
+    ],
+    "admission_number": "A008",
+    "roll_number": "108",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "saidul",
+    "guardian_phone": "6900630760"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "sadik"
+    ],
+    "admission_number": "A004",
+    "roll_number": "104",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "abdul",
+    "guardian_phone": "6900630700"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "testuser1"
+    ],
+    "admission_number": "A100",
+    "roll_number": "100",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "Test Parent",
+    "guardian_phone": "9999999999"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "afridi"
+    ],
+    "admission_number": "B001",
+    "roll_number": "102",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "saidul  khan",
+    "guardian_phone": "9837492739"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "sumaya"
+    ],
+    "admission_number": "A009",
+    "roll_number": "109",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "sayad",
+    "guardian_phone": "7896496099"
+  }
+},
+{
+  "model": "students.studentprofile",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "sajid"
+    ],
+    "admission_number": "A010",
+    "roll_number": "111",
+    "academic_class": 1,
+    "section": 1,
+    "guardian_name": "abdul ahmed",
+    "guardian_phone": "6900630768"
+  }
+},
+{
+  "model": "subjects.academicclass",
+  "pk": 1,
+  "fields": {
+    "name": "11th",
+    "stream": "SCIENCE"
+  }
+},
+{
+  "model": "subjects.academicclass",
+  "pk": 2,
+  "fields": {
+    "name": "12th",
+    "stream": "SCIENCE"
+  }
+},
+{
+  "model": "subjects.section",
+  "pk": 1,
+  "fields": {
+    "name": "A"
+  }
+},
+{
+  "model": "subjects.section",
+  "pk": 2,
+  "fields": {
+    "name": "B"
+  }
+},
+{
+  "model": "subjects.subject",
+  "pk": 1,
+  "fields": {
+    "code": "001",
+    "name": "Physics"
+  }
+},
+{
+  "model": "subjects.subject",
+  "pk": 2,
+  "fields": {
+    "code": "002",
+    "name": "Chemistry"
+  }
+},
+{
+  "model": "subjects.subject",
+  "pk": 3,
+  "fields": {
+    "code": "003",
+    "name": "Mathematics"
+  }
+},
+{
+  "model": "subjects.subject",
+  "pk": 4,
+  "fields": {
+    "code": "004",
+    "name": "Biology"
+  }
+},
+{
+  "model": "subjects.subject",
+  "pk": 5,
+  "fields": {
+    "code": "005",
+    "name": "English"
+  }
+},
+{
+  "model": "tests.test",
+  "pk": 2,
+  "fields": {
+    "title": "Biology Mocks",
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "duration": 20,
+    "total_marks": 80,
+    "is_published": true,
+    "created_at": "2026-06-24T04:53:08.036Z"
+  }
+},
+{
+  "model": "tests.test",
+  "pk": 3,
+  "fields": {
+    "title": "Chemistry Mock1",
+    "subject": "Chemistry",
+    "chapter": "ABC",
+    "duration": 30,
+    "total_marks": 30,
+    "is_published": false,
+    "created_at": "2026-06-24T04:56:32.718Z"
+  }
+},
+{
+  "model": "tests.test",
+  "pk": 4,
+  "fields": {
+    "title": "Physics mock test",
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "duration": 60,
+    "total_marks": 180,
+    "is_published": false,
+    "created_at": "2026-06-25T14:31:39.461Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 7,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxonomic ranks is broader than class but narrower than kingdom?",
+    "option_a": "Order",
+    "option_b": "Phylum",
+    "option_c": "Genus",
+    "option_d": "family",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:40:54.476Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 8,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxa includes the largest number of organisms?",
+    "option_a": "Genus",
+    "option_b": "order",
+    "option_c": "Class",
+    "option_d": "Phylum",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:41:39.891Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 9,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxonomic categories is more specific than Family but broader than Species?",
+    "option_a": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_b": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_c": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_d": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:43:17.165Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 10,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following is correct about phylogenetic classification?",
+    "option_a": "It classifies organisms based on evolutionary history.",
+    "option_b": "It does not use fossil evidence",
+    "option_c": "It ignores genetic data.",
+    "option_d": "It only considers external morphology",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:44:45.018Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 11,
+  "fields": {
+    "test": 2,
+    "question_text": "Which scientist first defined the term \"species\" based on reproductive isolation?",
+    "option_a": "Carolus Linnaeus",
+    "option_b": "Ernst Mayr",
+    "option_c": "Charles Darwin",
+    "option_d": "Gregor Mendel",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:46:09.161Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 12,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following statements about cladistics is incorrect?",
+    "option_a": "Cladistics classifies organisms based on shared derived characteristics",
+    "option_b": "It considers evolutionary ancestry.",
+    "option_c": "It groups organisms randomly without considering common traits",
+    "option_d": "Cladistics is used to construct phylogenetic trees",
+    "correct_answer": "C",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "Cladistics does not group organisms randomly; it classifies them based on shared derived traits and ancestry.",
+    "created_at": "2026-07-01T08:06:55.084Z"
+  }
+},
+{
+  "model": "tests.studentattempt",
+  "pk": 1,
+  "fields": {
+    "student": [
+      "sadik"
+    ],
+    "test": 2,
+    "score": 5,
+    "total_questions": 6,
+    "correct_answers": 2,
+    "wrong_answers": 3,
+    "unanswered": 1,
+    "percentage": 33.33,
+    "started_at": "2026-06-25T10:27:07.916Z",
+    "submitted_at": "2026-07-01T11:04:30.065Z"
+  }
+},
+{
+  "model": "tests.studentattempt",
+  "pk": 2,
+  "fields": {
+    "student": [
+      "student1"
+    ],
+    "test": 2,
+    "score": 3,
+    "total_questions": 2,
+    "correct_answers": 1,
+    "wrong_answers": 1,
+    "unanswered": 0,
+    "percentage": 50.0,
+    "started_at": "2026-06-26T16:13:44.369Z",
+    "submitted_at": "2026-06-26T16:14:01.907Z"
+  }
+},
+{
+  "model": "tests.studentanswer",
+  "pk": 42,
+  "fields": {
+    "attempt": 1,
+    "question": 7,
+    "selected_answer": "B",
+    "is_correct": false
+  }
+},
+{
+  "model": "tests.studentanswer",
+  "pk": 43,
+  "fields": {
+    "attempt": 1,
+    "question": 8,
+    "selected_answer": "B",
+    "is_correct": false
+  }
+},
+{
+  "model": "tests.studentanswer",
+  "pk": 44,
+  "fields": {
+    "attempt": 1,
+    "question": 9,
+    "selected_answer": "A",
+    "is_correct": true
+  }
+},
+{
+  "model": "tests.studentanswer",
+  "pk": 45,
+  "fields": {
+    "attempt": 1,
+    "question": 10,
+    "selected_answer": "A",
+    "is_correct": true
+  }
+},
+{
+  "model": "tests.studentanswer",
+  "pk": 46,
+  "fields": {
+    "attempt": 1,
+    "question": 11,
+    "selected_answer": "C",
+    "is_correct": false
+  }
+},
+{
+  "model": "notes.note",
+  "pk": 2,
+  "fields": {
+    "title": "Physics",
+    "subject": "Physics",
+    "chapter": "electric",
+    "description": "",
+    "pdf_file": "notes/pdfs/electric_inm1CU6.pdf",
+    "thumbnail": "",
+    "youtube_link": "https://youtu.be/m5VbK66a254?si=itiC1yQNbMSXerZW",
+    "uploaded_by": [
+      "adminsahidul"
+    ],
+    "is_published": true,
+    "created_at": "2026-07-01T07:26:51.260Z"
+  }
+},
+{
+  "model": "daily_practice.dailypractice",
+  "pk": 2,
+  "fields": {
+    "title": "Biology Assignment",
+    "subject": "Biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "description": "Write down the question . and write answers in notebook and upload photo of your answers.",
+    "publish_date": "2026-07-01",
+    "submission_deadline": "2026-07-03T00:00:00Z",
+    "is_published": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-01T17:24:43.399Z"
+  }
+},
+{
+  "model": "daily_practice.practicequestion",
+  "pk": 5,
+  "fields": {
+    "practice": 2,
+    "question_text": "Name the parts of an angiosperm flower in which the development of male and female gametophyte take\nplace.",
+    "marks": 1,
+    "order": 1
+  }
+},
+{
+  "model": "daily_practice.practicequestion",
+  "pk": 6,
+  "fields": {
+    "practice": 2,
+    "question_text": "Differentiate between microsporogenesis and megasporogenesis. Which type of cell division occurs\nduring these events? Name the structures formed at the end of these two events",
+    "marks": 5,
+    "order": 2
+  }
+},
+{
+  "model": "daily_practice.practicequestion",
+  "pk": 7,
+  "fields": {
+    "practice": 2,
+    "question_text": "With a neat diagram, explain the 7-celled, 8-nucleate nature of female gametophyte.",
+    "marks": 5,
+    "order": 3
+  }
+},
+{
+  "model": "daily_practice.practicequestion",
+  "pk": 8,
+  "fields": {
+    "practice": 2,
+    "question_text": "What are chasmogamous flowers? Can cross-pollination occur in cleistogamous flowers? Give reasons\nfor your answer.",
+    "marks": 2,
+    "order": 4
+  }
+},
+{
+  "model": "daily_practice.practicequestion",
+  "pk": 9,
+  "fields": {
+    "practice": 2,
+    "question_text": "Mention two strategies evolved to prevent self-pollination in flowers.",
+    "marks": 2,
+    "order": 5
+  }
+},
+{
+  "model": "daily_practice.practicesubmission",
+  "pk": 2,
+  "fields": {
+    "practice": 2,
+    "student": [
+      "sadik"
+    ],
+    "submitted_at": "2026-07-01T17:28:28.636Z",
+    "total_marks": 10.0,
+    "feedback": "",
+    "status": "Checked"
+  }
+},
+{
+  "model": "daily_practice.practicesubmission",
+  "pk": 3,
+  "fields": {
+    "practice": 2,
+    "student": [
+      "student1"
+    ],
+    "submitted_at": "2026-07-01T17:29:55.674Z",
+    "total_marks": 13.0,
+    "feedback": "",
+    "status": "Checked"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 7,
+  "fields": {
+    "submission": 2,
+    "image": "practice_submissions/Screenshot_1_5g3CTIt.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 8,
+  "fields": {
+    "submission": 2,
+    "image": "practice_submissions/Screenshot_2_FR0DEZD.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 9,
+  "fields": {
+    "submission": 2,
+    "image": "practice_submissions/Screenshot_3_UIkoiSl.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 10,
+  "fields": {
+    "submission": 2,
+    "image": "practice_submissions/Screenshot_4_7h8KRXg.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 11,
+  "fields": {
+    "submission": 2,
+    "image": "practice_submissions/Screenshot_5.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 12,
+  "fields": {
+    "submission": 3,
+    "image": "practice_submissions/Screenshot_6.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 13,
+  "fields": {
+    "submission": 3,
+    "image": "practice_submissions/Screenshot_7.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 14,
+  "fields": {
+    "submission": 3,
+    "image": "practice_submissions/Screenshot_8.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 15,
+  "fields": {
+    "submission": 3,
+    "image": "practice_submissions/Screenshot_9.png"
+  }
+},
+{
+  "model": "daily_practice.submissionimage",
+  "pk": 16,
+  "fields": {
+    "submission": 3,
+    "image": "practice_submissions/Screenshot_10.png"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 1,
+  "fields": {
+    "title": "Motivational Video",
+    "description": "",
+    "video": "",
+    "youtube_link": "https://youtu.be/oKPAqY2OovY?si=IUVHPyl9pYeMddPH",
+    "publish_date": "2026-07-02",
+    "target_class": "1-5",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-02T07:50:04.113Z"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 2,
+  "fields": {
+    "title": "Video",
+    "description": "",
+    "video": "motivation_videos/Motivation.mp4",
+    "youtube_link": null,
+    "publish_date": "2026-07-02",
+    "target_class": "1-5",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-02T09:29:44.128Z"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 3,
+  "fields": {
+    "title": "motivation",
+    "description": "xhGJBSJBDQWN",
+    "video": "",
+    "youtube_link": null,
+    "publish_date": "2026-07-02",
+    "target_class": "1-5",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-02T09:48:54.550Z"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 4,
+  "fields": {
+    "title": "Motivation",
+    "description": "",
+    "video": "",
+    "youtube_link": null,
+    "publish_date": "2026-07-03",
+    "target_class": "1-5",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-03T11:44:55.474Z"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 5,
+  "fields": {
+    "title": "motivation",
+    "description": "",
+    "video": "",
+    "youtube_link": null,
+    "publish_date": "2026-07-03",
+    "target_class": "1-5",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-03T12:03:00.343Z"
+  }
+},
+{
+  "model": "motivation.motivationvideo",
+  "pk": 6,
+  "fields": {
+    "title": "shhshsh",
+    "description": "",
+    "video": "",
+    "youtube_link": null,
+    "publish_date": "2026-07-03",
+    "target_class": "ALL",
+    "is_active": true,
+    "created_by": [
+      "adminsahidul"
+    ],
+    "created_at": "2026-07-03T12:25:44.091Z"
+  }
+}
+]
