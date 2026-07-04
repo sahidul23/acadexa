@@ -111,13 +111,14 @@ DATABASES = {
     }
 }
 
-import os
 
+
+import os
 import dj_database_url
 
 DATABASES = {
-    "default": dj_database_url.parse(
-        os.environ["DATABASE_URL"]
+    "default": dj_database_url.config(
+        default=os.environ.get("DATABASE_URL")
     )
 }
 # Password validation
