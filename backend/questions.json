@@ -1,0 +1,110 @@
+[
+{
+  "model": "tests.question",
+  "pk": 7,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxonomic ranks is broader than class but narrower than kingdom?",
+    "option_a": "Order",
+    "option_b": "Phylum",
+    "option_c": "Genus",
+    "option_d": "family",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:40:54.476Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 8,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxa includes the largest number of organisms?",
+    "option_a": "Genus",
+    "option_b": "order",
+    "option_c": "Class",
+    "option_d": "Phylum",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:41:39.891Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 9,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following taxonomic categories is more specific than Family but broader than Species?",
+    "option_a": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_b": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_c": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "option_d": "Kingdom -> Class -> Order -> Family -> Genus -> Species",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:43:17.165Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 10,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following is correct about phylogenetic classification?",
+    "option_a": "It classifies organisms based on evolutionary history.",
+    "option_b": "It does not use fossil evidence",
+    "option_c": "It ignores genetic data.",
+    "option_d": "It only considers external morphology",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:44:45.018Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 11,
+  "fields": {
+    "test": 2,
+    "question_text": "Which scientist first defined the term \"species\" based on reproductive isolation?",
+    "option_a": "Carolus Linnaeus",
+    "option_b": "Ernst Mayr",
+    "option_c": "Charles Darwin",
+    "option_d": "Gregor Mendel",
+    "correct_answer": "A",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "",
+    "created_at": "2026-07-01T07:46:09.161Z"
+  }
+},
+{
+  "model": "tests.question",
+  "pk": 12,
+  "fields": {
+    "test": 2,
+    "question_text": "Which of the following statements about cladistics is incorrect?",
+    "option_a": "Cladistics classifies organisms based on shared derived characteristics",
+    "option_b": "It considers evolutionary ancestry.",
+    "option_c": "It groups organisms randomly without considering common traits",
+    "option_d": "Cladistics is used to construct phylogenetic trees",
+    "correct_answer": "C",
+    "marks": 4,
+    "negative_marks": 1.0,
+    "difficulty": "Medium",
+    "explanation": "Cladistics does not group organisms randomly; it classifies them based on shared derived traits and ancestry.",
+    "created_at": "2026-07-01T08:06:55.084Z"
+  }
+}
+]

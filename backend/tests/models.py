@@ -8,6 +8,7 @@ class Test(models.Model):
         ("Chemistry", "Chemistry"),
         ("Mathematics", "Mathematics"),
         ("Biology", "Biology"),
+        ("English", "English")
     ]
 
     title = models.CharField(max_length=200)
