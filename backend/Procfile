@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn config.wsgi
+web: python manage.py shell -c "from accounts.models import User; print(User.objects.filter(username='YOUR_USERNAME').values('username','password','is_active','is_staff'))" && gunicorn config.wsgi
