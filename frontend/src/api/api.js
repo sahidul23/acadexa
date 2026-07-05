@@ -4,35 +4,11 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
 });
 
-// Add access token to every request
-api.interceptors.request.use(async (config) => {
-  let access = localStorage.getItem("access");
-  const refresh = localStorage.getItem("refresh");
+api.interceptors.request.use((config) => {
+  const token = localStorage.getItem("access");
 
-  if (access) {
-    try {
-      const payload = JSON.parse(atob(access.split(".")[1]));
-      const isExpired = payload.exp * 1000 < Date.now();
-
-      if (isExpired && refresh) {
-        const response = await axios.post(
-          `${import.meta.env.VITE_API_URL}/token/refresh/`,
-          {
-            refresh: refresh,
-          }
-        );
-
-        access = response.data.access;
-        localStorage.setItem("access", access);
-      }
-
-      config.headers.Authorization = `Bearer ${access}`;
-    } catch (error) {
-      console.error("Token refresh failed", error);
-      localStorage.removeItem("access");
-      localStorage.removeItem("refresh");
-      window.location.href = "/login";
-    }
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
   }
 
   return config;
